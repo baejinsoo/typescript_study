@@ -1,5 +1,4 @@
 import mkdirp from 'mkdirp'
-import { dirname } from 'node:path'
 import {fileExists} from './fileExists'
 
 export const mkdir = (dirname: string): Promise<string> =>
